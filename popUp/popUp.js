@@ -1,0 +1,1 @@
+document.getElementById('buttonbox').style.display = 'none';
