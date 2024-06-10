@@ -1,4 +1,4 @@
-가이드
+읽어읽어읽어읽어읽어읽어읽어읽어읽어
 =============
 -------------
 1. VS code 다운로드
@@ -10,7 +10,7 @@
 
 -------------
 2. 파일 다운로드
-* '''초록색 <> code'''버튼을 눌러보면 
+* 스크롤 올려서 제일 위로 가면 '''초록색 <> code'''버튼 잇음 눌러보면 
     * Clone
     * HTTPS SSH GitHub CLI
     * https://github.com/stilladvice/myJsProject.git 
