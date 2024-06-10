@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./popUp.css">
 </head>
-<body>
+<body bgcolor="green">
 
     <h2 id="helloWorld">Hello World!</h2>
     
-    <button onclick="document.getElementById('alert_box').style.display = 'block'; ">
-        Button1
+    <button onclick="document.getElementById('alertBox').style.display = 'block'; ">
+        open
     </button>
 
-    <div id="alert_box" class="alert_box">
+    <div id="alertBox" class="alertBoxCss">
         Hello World! &nbsp;
-        <button onclick="document.getElementById('alert_box').style.display = 'none'; ">button2</button>
+        <button onclick="document.getElementById('alertBox').style.display = 'none'; ">close</button>
     </div>
-    
-    
+
+
+
     <script src="popUp.js"></script>
 </body>
 </html>
