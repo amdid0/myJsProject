@@ -5,19 +5,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
 </head>
-
-//head is space that type information of program
 <body>
 
-    <h2 id="helloWorld"></h2>
+    <h2 id="helloWorld">Hello World!</h2>
     
-    <button onclick="document.getElementById('buttonbox').style.display = 'block'; ">
+    <button onclick="document.getElementById('alert_box').style.display = 'block'; ">
         Button1
     </button>
 
-    <div id="buttonbox" class="alert_box">Hello World!&nbsp;
-        <button onclick="document.getElementById('buttonbox').style.display = 'none'; ">버튼아님</button>
+    <div id="alert_box" class="alert_box">
+        Hello World! &nbsp;
+        <button onclick="document.getElementById('alert_box').style.display = 'none'; ">button2</button>
     </div>
+    
     
     <script src="popUp.js"></script>
 </body>

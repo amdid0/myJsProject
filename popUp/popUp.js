@@ -1,1 +1,5 @@
-document.getElementById('buttonbox').style.display = 'none';
+document.getElementById('alert_box').style.display = 'none';
+
+myFunction() {
+
+}
