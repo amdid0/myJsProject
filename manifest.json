@@ -1,14 +1,13 @@
 {
-    "manifest.json": 3,
-    "name": "myJsProject(확장 이름)",
-    "description": "확장 설명",
+    "name": "Hello World!",
+    "description": "Hello WOrld!",
     "version": "1.0",
+    "manifest_version": 3,
     "icons": {
         "16": "images/16.png",
         "32": "images/32.png",
         "48": "images/48.png",
         "128": "images/128.png"
-        images에 이미지들을 만들어라. 16 32 48 128은 픽셀이니까 그림판으로 크기 조절하고. 그림 다 그렸으면 이 줄은 지우셈
     },
     "action": {
         "default_icon": "images/32.png",

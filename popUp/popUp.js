@@ -1,6 +1,6 @@
 // define func
-function displaynone(parameter, parameter1) {
-    document.getElementById(parameter).style.display = parameter1;
+function displaynone(id, argument1) {
+    document.getElementById(id).style.display = argument1;
 }
 function alertHw() {
     alert("Hello World!");
