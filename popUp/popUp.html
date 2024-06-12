@@ -1,24 +1,32 @@
-<!DOCTYPE html>
+<!--제이름은 주석인데요. html에서는 이렇게 화살표로 감싸면 인코딩할 때 안 읽어요. 그래서 코드를 부연 설명합니다.-->
+
+<!DOCTYPE html> <!--저는 HTML인데요 저는 코딩 언어가 아니라 그냥 태그를 이용해서 글자를 이쁘게 사이트에다가 표시할게요-->
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="./popUp.css">
+    <meta charset="UTF-8"> <!--저는 UTF-8 인코딩을 사용합니다. -->
+    <title>Document</title> 
+    <link rel="stylesheet" href="./popUp.css"> <!--현재 속한 파일의 popUp.css에서 스타일 시트를 가져올게요-->
 </head>
-<body bgcolor="#fddfff">
+<body bgcolor="#fddfff"> <!--저는 배경색을 지정할거임 참고로 <>로 싸여진 걸 태그라 하는데요, <태그>내가 표시됨</태그> 방식으로 감싸면 됩니다. 종료 태그는 글자 앞에 /를 붙여주세요. -->
 
-    <h2 id="helloWorld">Hello World!</h2>
-    <button onclick="alertHw()">AlertHw</button>
+    <h2 id="helloWorld">
+        Hello World!
+    </h2> <!--저는 h2 태그입니다. 크기는 h2 크기로 글자가 나올거에요.-->
+
+    <button onclick="alertHw()">
+        AlertHw
+    </button> <!--저는 button 태그고요, AlertHw라고 표시된 버튼이에요. onclick하면 밑에 <script> </script>태그에서 alertHW()라는 함수를 가져와서 작동시킬거임-->
+    
     <button onclick="document.getElementById('alertBox').style.display = 'block'; ">
         open
-    </button>
+    </button><!--저는 open이라고 표시된 버튼임. 마찬가지로 onclick하면 document(여기임)에서 Id가 alertBox인 놈을 찾아서 style.display를 'block' 상태로 변환합니다. -->
 
-    <div id="alertBox" class="alertBoxCss">
+    <div id="alertBox" class="alertBoxCss"> 
         Hello World! &nbsp;
-        <button onclick="document.getElementById('alertBox').style.display = 'none'; ">close</button>
-    </div>
+        <button onclick="document.getElementById('alertBox').style.display = 'none'; ">close</button> <!--저는 div 태그에 있는 버튼입니다. 태그 안에 다른 태그를 집어넣을 수 있어요.-->
+    </div> <!--저는 division 태그인데요, 원래는 구역을 나누는 용도로 쓰는데요 그냥 만능임 하고 싶은 거 다 하세요.-->
 
-
+<!--다 봤으면 이제 F5를 눌러 컴파일해보세요. 아마 처음은 조금 절차가 있을텐데 다 하고 나면 브라우저(크롬같은거)에서 이 HTML 문서가 실행됩니다.-->
 
     <script src="popUp.js"></script>
 </body>

@@ -1,6 +1,6 @@
 {
-    "name": "Hello World!",
-    "description": "Hello WOrld!",
+    "name": "확장 이름",
+    "description": "확장 설명",
     "version": "1.0",
     "manifest_version": 3,
     "icons": {
